@@ -1,8 +1,8 @@
 from config import OWNER_ID
 from pyrogram import filters
-from AlexaSongBot import app
-from AlexaSongBot.mrdarkprince import get_arg
-from AlexaSongBot.sql.chat_sql import load_chats_list, remove_chat_from_db
+from OliverMusicBot(MM) import app
+from OliverMusicBot(MM) import get_arg
+from OliverMusicBot(MM).sql.chat_sql import load_chats_list, remove_chat_from_db
 from io import BytesIO
 
 

@@ -1,18 +1,18 @@
 # © @Mr_Dark_Prince
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from AlexaSongBot.modules import *
+from OliverMusicBot(MM).modules import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from AlexaSongBot import app, LOGGER
-from AlexaSongBot.mrdarkprince import ignore_blacklisted_users
-from AlexaSongBot.sql.chat_sql import add_chat_to_db
+from OliverMusicBot(MM).mrdarkprince import ignore_blacklisted_users
+from OliverMusicBot(MM).sql.chat_sql import add_chat_to_db
 
 start_text = """
-Hey [{}](tg://user?id={}),
-I'm Alexa 🤗
-Just send me the song name you want to download.
+Hello [{}](tg://user?id={}),
+I'm Oliver :3
+You can scarch music with below commend.
 Eg: ```/song Faded Alan Walker```
 """
 
@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="🔳 contact 🔳", url="https://t.me/@VeeMax21"
                     )
                 ]
             ]

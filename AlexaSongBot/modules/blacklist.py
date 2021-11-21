@@ -2,9 +2,9 @@ from pyrogram.types.messages_and_media import message
 from config import OWNER_ID
 from pyrogram import filters
 from pyrogram.errors import BadRequest
-from AlexaSongBot import app
-import AlexaSongBot.sql.blacklist_sql as sql
-from AlexaSongBot.mrdarkprince import get_arg
+from OliverMusicBot(MM) import app
+import OliverMusicBot(MM).sql.blacklist_sql as sql
+from OliverMusicBot(MM) import get_arg
 
 
 @app.on_message(filters.user(OWNER_ID) & filters.command("blacklist"))
